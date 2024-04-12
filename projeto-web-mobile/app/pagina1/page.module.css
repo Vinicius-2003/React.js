@@ -1,0 +1,24 @@
+.containerTexto p {
+    text-align: justify;
+    text-indent: 10px;
+}
+.tituloPagina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerTexto ul li{
+    list-style: none;
+    
+}
+.tituloPagina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carpoolTexto{
+    padding: 10px;
+    background-color: #CC141D;
+    display: inline-flex;
+    color:  white;
+}

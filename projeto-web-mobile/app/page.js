@@ -7,8 +7,8 @@ export default function Home() {
     <body>
       <div className="titulo">
         <h1>Contaminação e poluição do ar</h1>
-        <Menu/>
       </div>
+      <Menu/>
       <div className="container-grafico">
         <figure>
           <img
