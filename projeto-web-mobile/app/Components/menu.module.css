@@ -1,0 +1,21 @@
+
+.menu{
+    color: white;
+}
+
+.menu ul li{
+    list-style-type: none;
+    margin: 20px;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 255, 0, 0.45);
+    padding: 0;
+    border-radius: 10px;
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+}
