@@ -1,0 +1,23 @@
+.menu{
+    background-color: var(--bg-color-menu);
+    color: var(--fg-color-menu);
+}
+.menu ul{
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.menu li{
+    list-style-type:none;
+}
+.menu span{
+    display: block;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color:var(--fg-color-menu);
+    display: flex;
+    flex-direction: column;
+
+}
