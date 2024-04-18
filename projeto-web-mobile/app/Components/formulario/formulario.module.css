@@ -1,0 +1,11 @@
+.corpo_formulario{
+    background-color: var(--bgc-texto);
+}
+.corpo_formulario h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.corpo_formulario fieldset {
+    border: 10px bold black;
+}
