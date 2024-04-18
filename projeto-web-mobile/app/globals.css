@@ -1,42 +1,31 @@
 body{
-  background-color: #F2F1EB;
+  background-color: #252A34;
   padding: 5px;
   margin: 5px;
   font-size: large;
 }
-.titulo h1{
+.titulo-do-app h1{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #88AB8E;
+  background-color: #FF2E63;
   border-radius: 10px;
   padding: 10px;
   color: rgb(0, 0, 0);
 }
 
-.container-texto , ul {
-  text-align: justify;
-  list-style-type:"-->";
-}
 .container-texto ul li{
   text-indent: 10px;
 }
 
-.container-texto h2{
-  background-color: #EEE7DA;
-  border-radius: 10px;
-  display: inline-flex;
-}
 .container-texto h1{
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color:  #AFC8AD;
+  background-color:  #252A34;
   border-radius: 10px;
 }
-
-.imagens{
-  display: inline-flex;
-
+:root {
+  --bgc-texto:#08D9D6;
 }

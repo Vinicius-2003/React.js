@@ -19,11 +19,11 @@ export default function Menu(){
                 <MenuItem icon="https://super.so/icon/light/home.svg"
                 text="Home"
                 route="/" />
+                <MenuItem icon="https://super.so/icon/dark/bar-chart.svg"
+                text="Sobre Poluição"
+                route="/pagina1" />
                 <MenuItem icon="https://super.so/icon/light/user-plus.svg"
-                text="Mackarpool"
-                route="/pagina1?name=Vinícius" />
-                <MenuItem icon="https://super.so/icon/light/frown.svg"
-                text="MackGraphs"
+                text="Contato"
                 route="/pagina2" />
             </ul>
             )}

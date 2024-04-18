@@ -1,6 +1,7 @@
 
 .menu{
-    color: white;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
 }
 
 .menu ul li{
@@ -11,23 +12,20 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color:  #A5A692;
+    background-color:  #08D9D6;
     padding: 0;
     border-radius: 10px;
 }
 .menu a{
     text-decoration: none;
     color: #fff;
-}
-.menu img{
-    width: 20px;
-    height: 20px;
+    font-size: 12px;
 }
 
 .menu button{
-    background-color: orange;
+    background-color: #EAEAEA;
     border-radius: 30px;
-    font-size: 20px;
+    font-size: 15px;
     width: 40px;
     height: 40px;
 }
