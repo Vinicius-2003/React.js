@@ -11,7 +11,7 @@ export default function Menu(){
     return(
         <nav className={Style.menu}>
             <button onClick={() => setShowMenu(!showMenu)}>
-                {showMenu ? '≡' : '≡'}
+                {showMenu ? '🡳' : '≡'}
             </button>
             <h3>Menu</h3>
             {showMenu && (

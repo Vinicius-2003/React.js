@@ -6,24 +6,12 @@ export default function Home() {
   return (
     <body>
       <div className="titulo">
-        <h1>Contaminação e poluição do ar</h1>
+        <h1>Mackpool</h1>
       </div>
       <Menu/>
-      <div className="container-grafico">
-        <figure>
-          <img
-            src="https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/9C14/production/_121265993_grafico_co2_paises_quema-nc.png"
-            alt="Gráfico"
-          />
-          <figcaption>
-            <i>Os países líderes em liberação de CO2 no mundo</i>
-          </figcaption>
-        </figure>
-      </div>
-      <div className="container-texto">
-        <h1>Definições</h1>
-        <h2>O que é a contaminação do ar? </h2>
 
+      <div className="container-texto">
+  
         <ul>
           <li>
             <p>
