@@ -43,3 +43,6 @@
   display: inline-flex;
 
 }
+.MenuTexto p{
+  display: flex;
+}

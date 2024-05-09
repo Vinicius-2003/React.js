@@ -10,11 +10,11 @@ export default function Menu(){
 
     return(
         <nav className={Style.menu}>
-            <button onClick={() => setShowMenu(!showMenu)}>
-                {showMenu ? '🡳' : '≡'}
+            {/* <button onClick={() => setShowMenu(!showMenu)}>
+                {showMenu ? '≡' : '🡳'}
             </button>
             <h3>Menu</h3>
-            {showMenu && (
+            {showMenu && ( */}
             <ul>
                 <MenuItem icon="https://super.so/icon/light/home.svg"
                 text="Home"
@@ -25,8 +25,14 @@ export default function Menu(){
                 <MenuItem icon="https://super.so/icon/light/user-plus.svg"
                 text="Contato"
                 route="/pagina2" />
+                <MenuItem icon="https://super.so/icon/light/user-plus.svg"
+                text="testeApi"
+                route="/pagina3" />
+                <MenuItem icon="https://super.so/icon/light/user-plus.svg"
+                text="teste Nova Api"
+                route="/pagina4" />
             </ul>
-            )}
+            {/* )} */}
         </nav>
     );
 }

@@ -2,8 +2,13 @@
 .menu{
     color: rgb(255, 255, 255);
     font-size: 12px;
+    padding: 10px;
+    position: fixed;
+    width: calc(100% - 20px);
+    bottom: 0;
+    left: 0;
 }
-
+ 
 .menu ul li{
     list-style-type: none;
     margin: 20px;
@@ -35,4 +40,25 @@
     padding: 8px;
     vertical-align: auto ;
     font-size: 15px;
+}
+
+@media only screen and (min-width:992px){
+    .menu{
+        top: 0;
+        bottom: auto;
+    }
+
+    .menu ul {
+        justify-content: flex-end;
+        gap: 20px;
+        padding-right: 20px;
+    }
+
+    .menu ul li img{
+        display: none;
+    }
+
+    .menu li {
+        padding: 0
+    }
 }

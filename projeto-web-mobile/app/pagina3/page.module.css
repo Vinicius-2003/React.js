@@ -1,0 +1,16 @@
+.corpo_contato h1{
+    color: var(--ftc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teste p {
+    color: yellowgreen;
+}
+.teste h1 {
+    color: crimson;
+}
+.teste label {
+    color: deeppink;
+}
