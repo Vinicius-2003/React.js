@@ -31,9 +31,12 @@ export default function Menu(){
                 <MenuItem icon="https://super.so/icon/light/user-plus.svg"
                 text="teste Nova Api"
                 route="/pagina4" />
+<<<<<<< HEAD
                 <MenuItem icon="https://super.so/icon/light/user-plus.svg"
                 text="Linkando API's"
                 route="/pagina5" />
+=======
+>>>>>>> fc90773e54afdd4985b020e043f1cf5b539da16e
             </ul>
             {/* )} */}
         </nav>
