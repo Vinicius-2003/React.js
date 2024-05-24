@@ -1,0 +1,15 @@
+
+.dois {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    margin-top: "30px";
+    flex-direction: row;
+    padding:  30px;
+    margin: 30px;
+}
+
+.dois h1 {
+    padding:  30px;
+    background-color: brown;
+}

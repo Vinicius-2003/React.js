@@ -1,0 +1,30 @@
+.corpo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.input {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.botao {
+    font-size: 25px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.lista {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.listaCentro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
